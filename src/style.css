@@ -1,0 +1,161 @@
+.App {
+    display: contents;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; 
+    padding: 100px; 
+    text-align: center; 
+    background-color: aqua;
+  }
+  
+  .location-info,
+  .residents {
+    margin-top: 20px; 
+    text-align: center; 
+  }
+  
+  .residents {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; 
+  }
+ 
+  .modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 80%;
+    text-align: center;
+  }
+
+  .close {
+    display: none;
+  }
+
+  .cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+    background-color:rgb(146, 140, 140);
+    height: 500px;
+    width: 95vw;
+    border-radius: 25px;
+  }
+
+  .resident-card {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: lightblue;
+    width: 270px;
+    height: 330px;
+    border-radius: 10px;
+    font-size: 13px;
+    box-sizing: border-box;
+  }
+
+  .resident-card-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lavender; 
+    
+  }
+
+  .block-info-modal {
+    padding: 20px;
+    background-color: forestgreen;
+    height: 70vh;
+    border-radius: 10px;
+  }
+  
+  
+  .resident-info {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+  }
+
+  .resident-info-modal {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    width: 30vw;
+    height: 45vh;
+    object-fit: cover;
+    border-radius: 8px;
+    flex-direction: row;
+    margin-bottom: 10px;
+    text-align: left;
+  }
+  
+  .img {
+    width: 130px;
+    height: 130px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+
+  .img-modal {
+    width: 250px;
+    height: 250px;
+    border-radius: 15px;
+    object-fit: cover;
+  }
+
+  
+  .details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-align: left;
+  }
+
+  .details-modal {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 20px;
+  }
+
+  .info-item {
+    margin-bottom: 10px;
+
+  }
+
+  
+  
+  .episode-list {
+    text-align: left;
+  }
+
+input[type="text"] {
+  border-radius: 20px;
+  margin-right: 20px;
+  margin-top: 30px;
+  width: 300px;
+  height: 30px; 
+  padding-left: 20px;
+}
+
+
+button[type="submit"] {
+  all: unset;
+  border-radius: 20px;
+  width: 40px;
+  height: 30px;
+  cursor: pointer;
+}
